@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	background-color: #FFFFFF;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.main{
+	background-color: #FF00FF;
+	display: flex;
+	width: 95%;
+	max-width: 1000px;
+	margin: auto;
+	flex-wrap: wrap; 
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+.photo{
+	max-height: 265px;
+	max-width: 490px;
+	width: calc(50% - 10px);
+	height:calc(95vw / 2 / 16 * 9) ;
+	background-color: #FFFFFF;
+	margin: 5px;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+}
+
+.photo:nth-child(2){
+	background-image: url(бравл2.jpg);
+}
+
+.photo:nth-child(3){
+	background-image: url(бравл3.jpg);
+}
+
+.photo:nth-child(4){
+	background-image: url(бравл4.jpg);
+}
+
+.photo:nth-child(5){
+	background-image: url(бравл5.jpg);
+
+}
+.photo:nth-child(6){
+	background-image: url(бравл6.jpg);
+}
+
+.photo:nth-child(7){
+	background-image: url(бравл7.jpg);
+}
